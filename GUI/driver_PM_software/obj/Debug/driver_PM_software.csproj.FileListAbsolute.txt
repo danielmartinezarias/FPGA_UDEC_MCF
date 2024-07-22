@@ -1,0 +1,80 @@
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\obj\Debug\driver_PM_software.csprojAssemblyReference.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase modulators measurement control\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csprojAssemblyReference.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\obj\Debug\driver_PM_software.csprojAssemblyReference.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\multiport interferometer\FPGA\4_core_interferometer_V2\driver_PM\Phase mod_soft_NEXYSA7 - Copy\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csprojAssemblyReference.cache
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\quantum vault\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.AssemblyReference.cache
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\Usuario_1\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csprojAssemblyReference.cache
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.AssemblyReference.cache
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\keisa\Dropbox\Pesquisa\2021-08-- Decoy states\decoy states\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.AssemblyReference.cache
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.pdb

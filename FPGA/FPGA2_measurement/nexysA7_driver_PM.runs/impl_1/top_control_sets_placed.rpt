@@ -1,0 +1,185 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Tue Jul 23 01:17:42 2024
+| Host         : donaufeld running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   107 |
+|    Minimum number of control sets                        |   107 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   188 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   107 |
+| >= 0 to < 4        |    15 |
+| >= 4 to < 6        |    10 |
+| >= 6 to < 8        |    10 |
+| >= 8 to < 10       |    13 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    55 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             113 |           45 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              38 |           10 |
+| Yes          | No                    | No                     |            1456 |          398 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             341 |           95 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------+------------------+----------------+--------------+
+|         Clock Signal        |                                  Enable Signal                                  |                                Set/Reset Signal                                | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/counter_decoy_aux                                          |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out3 | DAC_control_1/LDAC_i_1_n_0                                                      |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[2]/control_reg_n_0                                             | Acc011/Pre001/o1[2]/counter[5]_i_1__2_n_0                                      |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out3 | DAC_control_1/DIN_i_1_n_0                                                       |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/counter_medidas[15]_i_2_n_0                               |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[1]/control_reg_n_0                                             | Acc011/Pre001/o1[1]/counter[5]_i_1__3_n_0                                      |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out3 | DAC_control_1/CS_i_1_n_0                                                        |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[0]/control_reg_n_0                                             | Acc011/Pre001/o1[0]/counter[5]_i_1__4_n_0                                      |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out2 | Acc011/Pre002/o1/control_reg_n_0                                                | Acc011/Pre002/o1/counter[5]_i_1__5_n_0                                         |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[5]/control_reg_n_0                                             | Acc011/Pre001/o1[5]/counter[5]_i_1_n_0                                         |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[4]/control_reg_n_0                                             | Acc011/Pre001/o1[4]/counter[5]_i_1__0_n_0                                      |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/UART_Tx_1/o1/PinTx0_out                           |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[3]/control_reg_n_0                                             | Acc011/Pre001/o1[3]/counter[5]_i_1__1_n_0                                      |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/control_Tx_1/o1/FSM_sequential_regControl_reg[1]  |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/o4/FSM_sequential_control_reg[2]                          |                                                                                |                1 |              1 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out3 | DAC_control_1/FSM_sequential_control[3]_i_1__0_n_0                              |                                                                                |                1 |              4 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/enablePM[3]_i_1_n_0                                        |                                                                                |                1 |              4 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/trigger_reg_0                                           |                                                                                |                3 |              4 |         1.33 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/UART_Tx_1/o1/FSM_sequential_controlTx_reg[1]_0[0] |                                                                                |                2 |              4 |         2.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/control_Tx_1/word_sent_reg_1[0]                   |                                                                                |                1 |              4 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/trigger_reg_0                                           | control_parametros_1/o1/ctrl_reg[8]                                            |                3 |              4 |         1.33 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_Rx_1/countTick[3]_i_1_n_0                                                  |                                                                                |                1 |              4 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 |                                                                                 | tick_generator_1/tick0_n_0                                                     |                1 |              5 |         5.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/UART_Tx_1/o1/trigger_reg_1[0]                     |                                                                                |                2 |              5 |         2.50 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/o4/E[0]                                                   |                                                                                |                5 |              5 |         1.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_Rx_1/FSM_onehot_ctrlRx[5]_i_1_n_0                                          |                                                                                |                2 |              6 |         3.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/control_Tx_1/o1/FSM_sequential_regControl_reg[1]  | UART_TX_control_1/modulo_Tx_1/control_Tx_1/o1/FSM_sequential_regControl_reg[2] |                2 |              6 |         3.00 |
+|  CLOCK_MASTER/inst/clk_out3 | DAC_control_1/count                                                             | DAC_control_1/count[5]_i_1_n_0                                                 |                1 |              6 |         6.00 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[4]/control_reg_n_0                                             |                                                                                |                2 |              7 |         3.50 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[5]/control_reg_n_0                                             |                                                                                |                2 |              7 |         3.50 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[0]/control_reg_n_0                                             |                                                                                |                2 |              7 |         3.50 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[1]/control_reg_n_0                                             |                                                                                |                2 |              7 |         3.50 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[2]/control_reg_n_0                                             |                                                                                |                2 |              7 |         3.50 |
+|  CLOCK_MASTER/inst/clk_out1 | Acc011/Pre001/o1[3]/control_reg_n_0                                             |                                                                                |                1 |              7 |         7.00 |
+|  CLOCK_MASTER/inst/clk_out2 | Acc011/Pre002/o1/control_reg_n_0                                                |                                                                                |                3 |              7 |         2.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/trigger_reg_1[0]                                        |                                                                                |                2 |              8 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/dcode32to8_1/dataout[7]_i_1__0_n_0                            |                                                                                |                3 |              8 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/dead_time_APD[7]_i_1_n_0                                   |                                                                                |                3 |              8 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/ctrl_reg[2][0]                                          |                                                                                |                3 |              8 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/dcode16to8_1/dataout[7]_i_1_n_0                               |                                                                                |                1 |              8 |         8.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/trigger_reg_0                                           | control_parametros_1/o1/ctrl_reg[5]                                            |                3 |              8 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/control_Tx_1/o1/E[0]                              | UART_TX_control_1/modulo_Tx_1/control_Tx_1/CtrlStartTx0                        |                2 |              8 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/UART_Tx_1/o1/CtrlStartTx_reg[0]                   |                                                                                |                1 |              8 |         8.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/ctrl_reg[1][0]                                          |                                                                                |                2 |              8 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/ctrl_reg[0][0]                                          |                                                                                |                3 |              8 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/UART_Tx_1/o1/E[0]                                 |                                                                                |                2 |              8 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/E[0]                                                    |                                                                                |                3 |              8 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/o1/E[1]                                                    |                                                                                |                2 |              8 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/dcode32to8_1/indexTx[9]_i_1__0_n_0                            |                                                                                |                3 |             10 |         3.33 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/dcode16to8_1/indexTx[9]_i_1_n_0                               |                                                                                |                3 |             10 |         3.33 |
+|  CLOCK_MASTER/inst/clk_out2 |                                                                                 |                                                                                |                4 |             11 |         2.75 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/counter_medidas[15]_i_2_n_0                               | controlPhase_Trigger1/counter_medidas[15]_i_1_n_0                              |                4 |             15 |         3.75 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_0_2[15]_i_1_n_0                                     |                                                                                |                4 |             16 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/enablePM_reg[2]_0[0]                                       |                                                                                |                5 |             16 |         3.20 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V4_signal[15]_i_1_n_0                                      |                                                                                |                6 |             16 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V4_vaccum[15]_i_1_n_0                                      |                                                                                |                6 |             16 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_0_1[15]_i_1_n_0                                     |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_0_4[15]_i_1_n_0                                     |                                                                                |                5 |             16 |         3.20 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_F_1[15]_i_1_n_0                                     |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_0_3[15]_i_1_n_0                                     |                                                                                |                4 |             16 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/counter_medidas_max[15]_i_1_n_0                            |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/pasos_rampa[15]_i_1_n_0                                    |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_F_3[15]_i_1_n_0                                     |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/dcode16to8_1/dataInterna[15]_i_1_n_0                          |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V0_1[15]_i_1_n_0                                           |                                                                                |                5 |             16 |         3.20 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/dcode16to8_1/E[0]                                             |                                                                                |                5 |             16 |         3.20 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V0_2[15]_i_1_n_0                                           |                                                                                |                4 |             16 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V2[15]_i_1_n_0                                             |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/enablePM_reg[3]_0[0]                                       |                                                                                |               10 |             16 |         1.60 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/enablePM_reg[0]_0[0]                                       |                                                                                |                5 |             16 |         3.20 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/enablePM_reg[1]_0[0]                                       |                                                                                |                6 |             16 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V1[15]_i_1_n_0                                             |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V0_4[15]_i_1_n_0                                           |                                                                                |                6 |             16 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V4_decoy[15]_i_1_n_0                                       |                                                                                |                9 |             16 |         1.78 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V3[15]_i_1_n_0                                             |                                                                                |                4 |             16 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V4[15]_i_1_n_0                                             |                                                                                |                8 |             16 |         2.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/V0_3[15]_i_1_n_0                                           |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_F_2[15]_i_1_n_0                                     |                                                                                |                4 |             16 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/VRampa_F_4[15]_i_1_n_0                                     |                                                                                |                3 |             16 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out3 | DAC_control_1/data_in                                                           |                                                                                |               10 |             19 |         1.90 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/counter_decoy_aux                                          | control_parametros_1/modo_medicion_reg[0]_0                                    |                8 |             31 |         3.88 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/en_count_reg_4                                            | Acc011/rsclr                                                                   |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/en_count_reg_2                                            | Acc011/rsclr                                                                   |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/en_count_reg_1                                            | Acc011/rsclr                                                                   |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/en_count_reg_0                                            | Acc011/rsclr                                                                   |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/delay_ID220[31]_i_1_n_0                                    |                                                                                |                6 |             32 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/N_muestras[31]_i_1_n_0                                     |                                                                                |                7 |             32 |         4.57 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/N_decoy[31]_i_1_n_0                                        |                                                                                |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/period[31]_i_1_n_0                                         |                                                                                |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/width[31]_i_1_n_0                                          |                                                                                |                7 |             32 |         4.57 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/width_ID220[31]_i_1_n_0                                    |                                                                                |                6 |             32 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/PM_stabilization[31]_i_1_n_0                               |                                                                                |                6 |             32 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/N_vaccum[31]_i_1_n_0                                       |                                                                                |               10 |             32 |         3.20 |
+|  CLOCK_MASTER/inst/clk_out1 | control_parametros_1/N_signal[31]_i_1_n_0                                       |                                                                                |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/o4/FSM_sequential_control_reg[2]_0                        | controlPhase_Trigger1/o4/FSM_sequential_control_reg[4]                         |                9 |             32 |         3.56 |
+|  CLOCK_MASTER/inst/clk_out2 | Acc011/ID220_0//i__n_0                                                          |                                                                                |               10 |             32 |         3.20 |
+|  CLOCK_MASTER/inst/clk_out2 | Acc011/ID220_0/gate_ID220_reg_0                                                 | Acc011/rsclr                                                                   |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/modulo_Tx_1/control_Tx_1/word_sent_reg_2[0]                   |                                                                                |               12 |             32 |         2.67 |
+|  CLOCK_MASTER/inst/clk_out1 | UART_TX_control_1/dcode32to8_1/dataInterna[31]_i_1_n_0                          |                                                                                |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/en_count_reg_3                                            | Acc011/rsclr                                                                   |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/en_count_reg_5                                            | Acc011/rsclr                                                                   |                8 |             32 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 |                                                                                 | control_parametros_1/O[0]                                                      |                9 |             33 |         3.67 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/Vout1[15]_i_1_n_0                                         |                                                                                |               12 |             64 |         5.33 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/V1_rampa[15]_i_1_n_0                                      |                                                                                |               18 |             64 |         3.56 |
+|  CLOCK_MASTER/inst/clk_out2 | Acc011/ID220_0/o1/E[0]                                                          |                                                                                |               16 |             64 |         4.00 |
+|  CLOCK_MASTER/inst/clk_out1 |                                                                                 |                                                                                |               41 |            102 |         2.49 |
+|  CLOCK_MASTER/inst/clk_out1 | controlPhase_Trigger1/E[0]                                                      |                                                                                |               49 |            224 |         4.57 |
++-----------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+
