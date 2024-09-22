@@ -78,3 +78,13 @@ C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Pha
 C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
 C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.exe
 C:\Users\danie\Dropbox\physics\UdeC\experimento decoy\FPGA\FPGA2_measurement\Phase mod_soft_NEXYSA7\driver_PM_software\obj\Debug\driver_PM_software.pdb
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\bin\Debug\driver_PM_software.exe.config
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\bin\Debug\driver_PM_software.exe
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\bin\Debug\driver_PM_software.pdb
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\obj\Debug\driver_PM_software.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\obj\Debug\driver_PM_software.Form1.resources
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\obj\Debug\driver_PM_software.Properties.Resources.resources
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\obj\Debug\driver_PM_software.csproj.GenerateResource.cache
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\obj\Debug\driver_PM_software.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\obj\Debug\driver_PM_software.exe
+C:\Users\danie\Documents\GitHub\FPGA_UDEC_MCF\GUI\driver_PM_software\obj\Debug\driver_PM_software.pdb

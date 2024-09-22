@@ -18,32 +18,32 @@
 	
 	
 	
-numericUpDown1	31326
-numericUpDown2	31336
-numericUpDown3	31384
-numericUpDown4	31734
-numericUpDown9	7
-checkBoxPMs	0
+numericUpDown1	1
+numericUpDown2	1
+numericUpDown3	1
+numericUpDown4	32768
+numericUpDown9	4
+checkBoxPMs	15
 numericUpDown10	65535
 	
-numericUpDown8	31200
-numericUpDown7	31200
-numericUpDown6	31200
-numericUpDown5	32000
-numericUpDown14	34200
-numericUpDown13	34200
-numericUpDown12	34200
-numericUpDown11	34000
-numericUpDown15	8
+numericUpDown8	31265
+numericUpDown7	31265
+numericUpDown6	31265
+numericUpDown5	31265
+numericUpDown14	34265
+numericUpDown13	34265
+numericUpDown12	34265
+numericUpDown11	34265
+numericUpDown15	16
 	
 	
-numericUpDown18	800
+numericUpDown18	10000000
 numericUpDown19	10
 numericUpDown20	10000000
-numericUpDown27	31326
-numericUpDown26	31336
-numericUpDown25	31384
-numericUpDown24	31550
+numericUpDown27	0
+numericUpDown26	0
+numericUpDown25	0
+numericUpDown24	0
 numericUpDown31	635
 numericUpDown32	50000000
 numericUpDown34	20
@@ -54,12 +54,12 @@ numericUpDown40	2
 numericUpDown39	200
 numericUpDown38	23
 	
-	
-	
-	
-	
-	
-	
+numericUpDown63	10000000
+numericUpDown64	10000000
+numericUpDown65	10000000
+numericUpDown62	31580
+numericUpDown61	31550
+numericUpDown60	31750
 	
 	
 	
@@ -91,33 +91,33 @@ numericUpDown38	23
 	
 	
 numericUpDown17	1
-numericUpDown16	1
-numericUpDown22	1
-numericUpDown21	0
-numericUpDown23	37
+numericUpDown16	0.000
+numericUpDown22	0.000
+numericUpDown21	0.000
+numericUpDown23	2800
 numericUpDown28	0.0733629260923453
 numericUpDown29	0.195217240124322
 numericUpDown30	0.205691244475177
-numericUpDown43	15
-numericUpDown42	1
-numericUpDown41	15
-numericUpDown37	10
-numericUpDown44	31326
-numericUpDown45	31634
-numericUpDown46	31970
-numericUpDown47	32341
-numericUpDown51	31336
-numericUpDown50	31632
-numericUpDown49	31968
-numericUpDown48	32336
-numericUpDown55	31384
-numericUpDown54	31784
-numericUpDown53	32224
-numericUpDown52	32720
-numericUpDown59	31734
-numericUpDown58	32392
-numericUpDown57	32752
-numericUpDown56	33184
+numericUpDown43	0
+numericUpDown42	0
+numericUpDown41	0
+numericUpDown37	0
+numericUpDown44	1
+numericUpDown45	2
+numericUpDown46	3
+numericUpDown47	3
+numericUpDown51	1
+numericUpDown50	3
+numericUpDown49	7
+numericUpDown48	8
+numericUpDown55	1
+numericUpDown54	4
+numericUpDown53	11
+numericUpDown52	12
+numericUpDown59	13
+numericUpDown58	14
+numericUpDown57	15
+numericUpDown56	16
 	
 	
 	

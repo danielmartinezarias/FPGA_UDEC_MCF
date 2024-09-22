@@ -325,11 +325,11 @@ namespace driver_PM_software
                     {
                         if (ctrl_Name == controles[index])
                         {
-                            if (ctrl is CheckBox)
+                            /*if (ctrl is CheckBox)
                             {
                                 (ctrl as CheckBox).Checked = Convert.ToBoolean(ObjetoIOP.matrixPropiedades[orden[index], 1]);
                                 break;
-                            }
+                            }*/
                             if (ctrl is NumericUpDown)
                             {
                                 (ctrl as NumericUpDown).Value = Convert.ToDecimal(ObjetoIOP.matrixPropiedades[orden[index], 1]);
@@ -419,13 +419,14 @@ namespace driver_PM_software
 
                     case 2:
 
-                        if (indexVectorByte < 39)//antes era 30 pero sume 12 por los 3 APD de 4 bytes que agregue
+                        if (indexVectorByte < 38)//antes era 30 pero sume 12 por los 3 APD de 4 bytes que agregue
                         {
                             VectorByte3[indexVectorByte] = (byte)serialPort_FPGA.ReadByte();
                             indexVectorByte++;
                         }
                         else
                         {
+                            VectorByte3[indexVectorByte] = (byte)serialPort_FPGA.ReadByte();
                             Vect_NexysA7_APD = ObjetoConvertir.VectorByte_NexysA7_APD_2VectorInt(VectorByte3);
                             this.Invoke(new EventHandler(actulizarRx));
                             controlRx = 0;
@@ -473,10 +474,9 @@ namespace driver_PM_software
                             for (int i = 0; i < 7; i++)//
                             {
                                 RxString_txt = RxString_txt + Convert.ToString(Vect_NexysA7_APD[i]) + "\t";
-                                if (numericUpDown9.Value == 4) { RxString_txt = RxString_txt + "MUB" + Convert.ToString(MUBS) + "\t"; }
                                 //listBox1.Items.Add(VectMascaras01[i]);
                             }
-                            RxString_txt = RxString_txt + "\r\n";
+                            RxString_txt = RxString_txt + "MUB" + Convert.ToString(MUBS) + "\r\n";
 
                             StreamWriter sw = new StreamWriter(direccion_guardar2, true);
                             sw.Write(RxString_txt);
@@ -560,7 +560,7 @@ namespace driver_PM_software
                             chart3BARS.Series["APD"].Points.AddXY(6, (double)Vect_NexysA7_APD[5] / SUM_counts);
                             chart3BARS.Series["APD"].Points.AddXY(7, (double)Vect_NexysA7_APD[6] / SUM_counts);
                         */
-                        ParametroSerial(62, 8, 1, 0);
+                        
                         if(numericUpDown9.Value == 4)
                         {
                             switch (MUBS)
@@ -583,8 +583,12 @@ namespace driver_PM_software
                                     break;
                             }
                         }
-                        
+                        //acknowleged
+                        ParametroSerial(62, 8, 1, 0);
+
                     }
+                    //acknowleged
+                    ParametroSerial(62, 8, 1, 0);
                 }
             }
             
@@ -842,13 +846,13 @@ namespace driver_PM_software
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (serialPort_FPGA.IsOpen)
+            /*if (serialPort_FPGA.IsOpen)
             {
                 ParametroSerial(27, 8, 0, 0);
                 ParametroSerial(55, 8, 0, 0);
                 serialPort_FPGA.Close();
             }
-            System.Windows.Forms.Application.Exit();
+            System.Windows.Forms.Application.Exit();*/
         }
 
         private void numericUpDown8_ValueChanged(object sender, EventArgs e)
@@ -915,6 +919,7 @@ namespace driver_PM_software
                                 ParametroSerial(24, 8, 1, 0);
                                 radioButton2.Checked = true;
                                 MUBS = 2;
+                                this.evento_click_actualizarFPGA(sender, e, 8);
                                 //instant_tomo_voltages();
                             }
                             else
@@ -1097,6 +1102,11 @@ namespace driver_PM_software
                 button1.BackColor = Color.DarkGray;
                 button1.Text = "Start Measurement";
                 ParametroSerial(27, 8, 0, 0);
+                ParametroSerial(62, 8, 1, 0);
+                controlRx = 0;
+                indexVectorByte = 0;
+                Listbox_identificadorPalabra.Items.Clear();
+                Array.Clear(VectorByte3,0,VectorByte3.Length);
                 label16.Visible = false;
                 label17.Visible = false;
                 RxString_txt = "";

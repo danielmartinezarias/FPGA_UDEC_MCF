@@ -329,7 +329,6 @@
             // 
             // toolStripComboBox_COMPORTS
             // 
-            this.toolStripComboBox_COMPORTS.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripComboBox_COMPORTS.Name = "toolStripComboBox_COMPORTS";
             this.toolStripComboBox_COMPORTS.Size = new System.Drawing.Size(121, 33);
             // 
@@ -2908,7 +2907,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(1973, 711);
+            this.ClientSize = new System.Drawing.Size(1924, 711);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label74);
             this.Controls.Add(this.numericUpDown65);
@@ -3069,7 +3068,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "Form1";
-            this.Text = "Bob Decoy States 2024-05-31";
+            this.Text = "Bob Decoy States 2024-09-22";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
