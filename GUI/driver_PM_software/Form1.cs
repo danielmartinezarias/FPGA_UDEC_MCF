@@ -914,8 +914,7 @@ namespace driver_PM_software
                         {
                             if (numericUpDown9.Value == 4)
                             {
-                                label43.Text = "";
-                                label43.Text = "Instant Tomography";
+                                label43.Text = "Consecutive Tomography";
                                 ParametroSerial(24, 8, 1, 0);
                                 radioButton2.Checked = true;
                                 MUBS = 2;
@@ -926,8 +925,23 @@ namespace driver_PM_software
                             {
                                 if (numericUpDown9.Value == 5)
                                 {
-                                    label43.Text = "";
-                                    //label43.Text = "Instant Tomo 2 random st";
+                                    label43.Text = "Instant Tomography";
+                                    //MUB1
+                                    ParametroSerial(64,16,(uint)numericUpDown44.Value,0);
+                                    ParametroSerial(65, 16, (uint)numericUpDown51.Value,0);
+                                    ParametroSerial(66, 16, (uint)numericUpDown55.Value,0);
+                                    //MUB2
+                                    ParametroSerial(68, 16, (uint)numericUpDown47.Value,0);
+                                    ParametroSerial(69, 16, (uint)numericUpDown50.Value,0);
+                                    ParametroSerial(70, 16, (uint)numericUpDown55.Value,0);
+                                    //MUB3
+                                    ParametroSerial(72, 16, (uint)numericUpDown46.Value,0);
+                                    ParametroSerial(73, 16, (uint)numericUpDown50.Value,0);
+                                    ParametroSerial(74, 16, (uint)numericUpDown54.Value,0);
+                                    //MUB4
+                                    ParametroSerial(76, 16, (uint)numericUpDown47.Value,0);
+                                    ParametroSerial(77, 16, (uint)numericUpDown51.Value,0);
+                                    ParametroSerial(78, 16, (uint)numericUpDown54.Value,0);
                                     //instant_tomo_voltages_2st();
                                 }
                                 else

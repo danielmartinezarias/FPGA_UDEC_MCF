@@ -64,7 +64,10 @@ module top(
     wire [31:0] width_ID220,period_ID220,delay_ID220;
     wire [31:0] N_decoy, N_vaccum, N_signal;
     wire [15:0] V4_decoy, V4_vaccum, V4_signal;
-    
+    wire [15:0] MUB1_V1, MUB1_V2, MUB1_V3, MUB1_V4;
+    wire [15:0] MUB2_V1, MUB2_V2, MUB2_V3, MUB2_V4;
+    wire [15:0] MUB3_V1, MUB3_V2, MUB3_V3, MUB3_V4;
+    wire [15:0] MUB4_V1, MUB4_V2, MUB4_V3, MUB4_V4;
     ///////////
     assign APD_sum = APD0+APD1+APD2+APD3+APD4+APD5+APD6;
 
@@ -260,7 +263,23 @@ module top(
         .V4_decoy(V4_decoy), 
         .V4_vaccum(V4_vaccum), 
         .V4_signal(V4_signal),
-        .acknowledged(acknowledged)
+        .acknowledged(acknowledged),
+        .MUB1_V1(MUB1_V1),
+        .MUB1_V2(MUB1_V2),
+        .MUB1_V3(MUB1_V3),
+        .MUB1_V4(MUB1_V4),
+        .MUB2_V1(MUB2_V1),
+        .MUB2_V2(MUB2_V2),
+        .MUB2_V3(MUB2_V3),
+        .MUB2_V4(MUB2_V4),
+        .MUB3_V1(MUB3_V1),
+        .MUB3_V2(MUB3_V2),
+        .MUB3_V3(MUB3_V3),
+        .MUB3_V4(MUB3_V4),
+        .MUB4_V1(MUB4_V1),
+        .MUB4_V2(MUB4_V2),
+        .MUB4_V3(MUB4_V3),
+        .MUB4_V4(MUB4_V4)
         
     );    
     
@@ -320,7 +339,23 @@ module top(
         .V4_vaccum(V4_vaccum), 
         .V4_signal(V4_signal),
         .APD_sum(APD_sum),
-        .acknowledged(acknowledged)
+        .acknowledged(acknowledged),
+        .MUB1_V1(MUB1_V1),
+        .MUB1_V2(MUB1_V2),
+        .MUB1_V3(MUB1_V3),
+        .MUB1_V4(MUB1_V4),
+        .MUB2_V1(MUB2_V1),
+        .MUB2_V2(MUB2_V2),
+        .MUB2_V3(MUB2_V3),
+        .MUB2_V4(MUB2_V4),
+        .MUB3_V1(MUB3_V1),
+        .MUB3_V2(MUB3_V2),
+        .MUB3_V3(MUB3_V3),
+        .MUB3_V4(MUB3_V4),
+        .MUB4_V1(MUB4_V1),
+        .MUB4_V2(MUB4_V2),
+        .MUB4_V3(MUB4_V3),
+        .MUB4_V4(MUB4_V4)
     );
     
 //    UART_FIFO_TX_control UART_FIFO_TX_control_1(

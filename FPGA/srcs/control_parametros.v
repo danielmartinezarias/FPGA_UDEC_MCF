@@ -40,7 +40,11 @@ module control_parametros(
     output reg align_button = 1'b0,
     output reg [31:0] N_decoy = 32'd50, N_vaccum = 32'd50, N_signal = 32'd3000,
     output reg [15:0] V4_decoy = 16'b0111111111111111, V4_vaccum = 16'b0111111111111111, V4_signal = 16'b0111111111111111,
-    output reg acknowledged = 1'b0
+    output reg acknowledged = 1'b0,
+	output reg [15:0] MUB1_V1 = 16'b0111111111111111, MUB1_V2 = 16'b0111111111111111, MUB1_V3 = 16'b0111111111111111, MUB1_V4 = 16'b0111111111111111,
+    output reg [15:0] MUB2_V1 = 16'b0111111111111111, MUB2_V2 = 16'b0111111111111111, MUB2_V3 = 16'b0111111111111111, MUB2_V4 = 16'b0111111111111111,
+    output reg [15:0] MUB3_V1 = 16'b0111111111111111, MUB3_V2 = 16'b0111111111111111, MUB3_V3 = 16'b0111111111111111, MUB3_V4 = 16'b0111111111111111,
+    output reg [15:0] MUB4_V1 = 16'b0111111111111111, MUB4_V2 = 16'b0111111111111111, MUB4_V3 = 16'b0111111111111111, MUB4_V4 = 16'b0111111111111111
     );
 
 
@@ -367,6 +371,86 @@ case (ctrl)
 	
 	63:begin 
 	    acknowledged    	    <= 1'b0;
+		ctrl					<= 16'd0;
+	end
+
+	64:begin
+		MUB1_V1             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	65:begin
+		MUB1_V2             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	66:begin
+		MUB1_V3             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end	
+
+	67:begin
+		MUB1_V4             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	68:begin
+		MUB2_V1             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	69:begin
+		MUB2_V2             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	70:begin
+		MUB2_V3             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	71:begin
+		MUB2_V4             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	72:begin
+		MUB3_V1             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	73:begin
+		MUB3_V2             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	74:begin
+		MUB3_V3             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	75:begin
+		MUB3_V4             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	76:begin
+		MUB4_V1             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	77:begin
+		MUB4_V2             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	78:begin
+		MUB4_V3             	<= {d2,d1};
+		ctrl					<= 16'd0;
+	end
+
+	79:begin
+		MUB4_V4             	<= {d2,d1};
 		ctrl					<= 16'd0;
 	end
 

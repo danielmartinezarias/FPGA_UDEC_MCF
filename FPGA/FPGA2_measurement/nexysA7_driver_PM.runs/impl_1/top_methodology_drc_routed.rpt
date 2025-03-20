@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Jul 23 01:18:12 2024
+| Date         : Thu Mar 20 16:07:27 2025
 | Host         : donaufeld running 64-bit major release  (build 9200)
 | Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
 | Design       : top
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 61
+             Violations found: 66
 +-----------+------------------+------------------------------------------------------------------+------------+
 | Rule      | Severity         | Description                                                      | Violations |
 +-----------+------------------+------------------------------------------------------------------+------------+
 | TIMING-6  | Critical Warning | No common primary clock between related clocks                   | 12         |
-| TIMING-16 | Warning          | Large setup violation                                            | 32         |
+| TIMING-16 | Warning          | Large setup violation                                            | 37         |
 | TIMING-18 | Warning          | Missing input or output delay                                    | 13         |
 | TIMING-56 | Warning          | Missing logically or physically excluded clock groups constraint | 4          |
 +-----------+------------------+------------------------------------------------------------------+------------+
@@ -97,162 +97,187 @@ Related violations: <none>
 
 TIMING-16#1 Warning
 Large setup violation  
-There is a large setup violation of -1.012 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[18]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.170 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[21]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#2 Warning
 Large setup violation  
-There is a large setup violation of -1.019 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[17]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.181 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[9]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#3 Warning
 Large setup violation  
-There is a large setup violation of -1.034 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[8]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.182 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[7]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#4 Warning
 Large setup violation  
-There is a large setup violation of -1.036 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/FSM_onehot_state_reg[0]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.188 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[15]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#5 Warning
 Large setup violation  
-There is a large setup violation of -1.038 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/FSM_onehot_state_reg[2]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.196 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[28]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#6 Warning
 Large setup violation  
-There is a large setup violation of -1.065 ns between Acc011/ID220_0/count_reg[1]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[21]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.213 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[22]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#7 Warning
 Large setup violation  
-There is a large setup violation of -1.081 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[25]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.217 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/FSM_onehot_state_reg[1]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#8 Warning
 Large setup violation  
-There is a large setup violation of -1.105 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[22]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.224 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/FSM_onehot_state_reg[0]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#9 Warning
 Large setup violation  
-There is a large setup violation of -1.138 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[11]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.272 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/FSM_onehot_state_reg[2]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#10 Warning
 Large setup violation  
-There is a large setup violation of -1.141 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[16]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.280 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[19]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#11 Warning
 Large setup violation  
-There is a large setup violation of -1.141 ns between Acc011/ID220_0/count_reg[1]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[29]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.299 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[12]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#12 Warning
 Large setup violation  
-There is a large setup violation of -1.152 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[0]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.309 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[5]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#13 Warning
 Large setup violation  
-There is a large setup violation of -1.156 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/FSM_onehot_state_reg[1]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.315 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[17]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#14 Warning
 Large setup violation  
-There is a large setup violation of -1.184 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[10]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.317 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[26]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#15 Warning
 Large setup violation  
-There is a large setup violation of -1.184 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[2]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.318 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[14]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#16 Warning
 Large setup violation  
-There is a large setup violation of -1.185 ns between Acc011/ID220_0/count_reg[1]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[26]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.333 ns between control_parametros_1/dead_time_APD_reg[0]/C (clocked by clk_out1_clk_wiz_0) and Acc011/Pre002/o1/counter_reg[5]/R (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#17 Warning
 Large setup violation  
-There is a large setup violation of -1.195 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[27]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.338 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[6]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#18 Warning
 Large setup violation  
-There is a large setup violation of -1.197 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[6]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.343 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[23]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#19 Warning
 Large setup violation  
-There is a large setup violation of -1.198 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[12]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.346 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[16]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#20 Warning
 Large setup violation  
-There is a large setup violation of -1.203 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[4]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.347 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[20]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#21 Warning
 Large setup violation  
-There is a large setup violation of -1.207 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[24]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.348 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[0]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#22 Warning
 Large setup violation  
-There is a large setup violation of -1.208 ns between control_parametros_1/dead_time_APD_reg[2]/C (clocked by clk_out1_clk_wiz_0) and Acc011/Pre002/o1/counter_reg[5]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.351 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[13]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#23 Warning
 Large setup violation  
-There is a large setup violation of -1.228 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/gate_ID220_reg/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.357 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[27]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#24 Warning
 Large setup violation  
-There is a large setup violation of -1.230 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[23]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.377 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[1]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#25 Warning
 Large setup violation  
-There is a large setup violation of -1.230 ns between Acc011/ID220_0/count_reg[1]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[31]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.406 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[24]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#26 Warning
 Large setup violation  
-There is a large setup violation of -1.247 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[28]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.408 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[3]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#27 Warning
 Large setup violation  
-There is a large setup violation of -1.259 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[5]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.413 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[2]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#28 Warning
 Large setup violation  
-There is a large setup violation of -1.261 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[9]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.431 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[10]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#29 Warning
 Large setup violation  
-There is a large setup violation of -1.330 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[30]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.437 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[8]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#30 Warning
 Large setup violation  
-There is a large setup violation of -1.346 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[3]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.448 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[25]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#31 Warning
 Large setup violation  
-There is a large setup violation of -1.357 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[14]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.467 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[4]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#32 Warning
 Large setup violation  
-There is a large setup violation of -1.508 ns between Acc011/ID220_0/count_reg[14]/C (clocked by clk_out2_clk_wiz_0_1) and Acc011/ID220_0/count_reg[1]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.486 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/gate_ID220_reg/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -1.489 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[18]/D (clocked by clk_out2_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -1.496 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[31]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -1.498 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[30]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -1.508 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[11]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -1.511 ns between Acc011/ID220_0/count_reg[0]/C (clocked by clk_out2_clk_wiz_0) and Acc011/ID220_0/count_reg[29]/D (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-18#1 Warning

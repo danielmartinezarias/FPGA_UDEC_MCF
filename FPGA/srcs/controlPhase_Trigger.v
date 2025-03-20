@@ -48,7 +48,11 @@ module controlPhase_Trigger(
     input [31:0] N_decoy, N_vaccum, N_signal,
     input [15:0] V4_decoy, V4_vaccum, V4_signal,
     input [31:0] APD_sum,
-    input acknowledged
+    input acknowledged,
+    input [15:0] MUB1_V1, MUB1_V2, MUB1_V3, MUB1_V4,
+    input [15:0] MUB2_V1, MUB2_V2, MUB2_V3, MUB2_V4,
+    input [15:0] MUB3_V1, MUB3_V2, MUB3_V3, MUB3_V4,
+    input [15:0] MUB4_V1, MUB4_V2, MUB4_V3, MUB4_V4
     );
     
     OneShot o1 (
@@ -78,6 +82,8 @@ module controlPhase_Trigger(
     reg [15:0] V4_rampa = 16'b0111111111111111;
     reg [31:0] counter = 32'd0;
     reg [31:0] counter_decoy_aux = 32'd0;
+
+    reg [1:0] MUB = 2'b00;
     
     
     
@@ -157,6 +163,18 @@ module controlPhase_Trigger(
                                 DAC3            <= V3;
                             if(enablePM[3])
                                 DAC4            <= V4;
+                        end
+
+                        5:begin // instant tomography
+                            if(enablePM[0])
+                                DAC1            <= MUB1_V1;
+                            if(enablePM[1])
+                                DAC2            <= MUB1_V2;
+                            if(enablePM[2])
+                                DAC3            <= MUB1_V3;
+                            if(enablePM[3])
+                                DAC4            <= MUB1_V4;
+                            MUB                 <= 2'b00;
                         end
                         
                         7:begin//decoy
@@ -255,6 +273,14 @@ module controlPhase_Trigger(
                             if(enablePM[3])
                                 DAC4            <= V4;
                         end
+                        5:begin//instant tomography
+                            case(MUB)
+                                2'b00:begin DAC1 <= MUB2_V1; DAC2 <= MUB2_V2; DAC3 <= MUB2_V3; DAC4 <= MUB2_V4; MUB  <= 2'b01; end
+                                2'b01:begin DAC1 <= MUB3_V1; DAC2 <= MUB3_V2; DAC3 <= MUB3_V3; DAC4 <= MUB3_V4; MUB  <= 2'b10; end
+                                2'b10:begin DAC1 <= MUB4_V1; DAC2 <= MUB4_V2; DAC3 <= MUB4_V3; DAC4 <= MUB4_V4; MUB  <= 2'b11; end
+                                2'b11:begin DAC1 <= MUB1_V1; DAC2 <= MUB1_V2; DAC3 <= MUB1_V3; DAC4 <= MUB1_V4; MUB  <= 2'b00; end
+                            endcase
+                        end
                         default:begin//cero
                             DAC1              <= V0_1;
                             DAC2              <= V0_2;
@@ -350,7 +376,20 @@ module controlPhase_Trigger(
                 end
                 else begin
                     counter             <= 32'd0;
-                    control             <= 1; 
+
+                    case(modo_medicion)
+
+                    default:begin
+                        control             <= 1; 
+                    end
+
+                    5:begin // instant tomography
+                        control         <= 5;
+                        delay_clk       <= 3'd0;
+                    end
+
+                    endcase
+                    
                 end
             end
             

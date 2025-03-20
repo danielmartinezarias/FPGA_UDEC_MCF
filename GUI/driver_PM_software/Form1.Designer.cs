@@ -481,7 +481,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.DarkGray;
             this.button1.Enabled = false;
-            this.button1.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(516, 82);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
@@ -1830,7 +1830,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.DarkGray;
             this.button2.Enabled = false;
-            this.button2.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button2.Location = new System.Drawing.Point(516, 202);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
@@ -2906,7 +2906,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.Thistle;
+            this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(1924, 711);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label74);
@@ -3068,7 +3068,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "Form1";
-            this.Text = "Bob Decoy States 2024-09-22";
+            this.Text = "Bob Decoy States 2025-03-20";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);

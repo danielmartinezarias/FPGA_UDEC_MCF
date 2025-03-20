@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date             : Tue Jul 23 01:18:13 2024
+| Date             : Thu Mar 20 16:07:30 2025
 | Host             : donaufeld running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -53,15 +53,15 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.011 |       12 |       --- |             --- |
-| Slice Logic    |     0.004 |     3641 |       --- |             --- |
-|   LUT as Logic |     0.003 |     1119 |     63400 |            1.76 |
+| Slice Logic    |     0.004 |     4022 |       --- |             --- |
+|   LUT as Logic |     0.003 |     1246 |     63400 |            1.97 |
 |   CARRY4       |    <0.001 |      189 |     15850 |            1.19 |
-|   Register     |    <0.001 |     1948 |    126800 |            1.54 |
+|   Register     |    <0.001 |     2206 |    126800 |            1.74 |
 |   Others       |     0.000 |       68 |       --- |             --- |
-| Signals        |     0.003 |     2720 |       --- |             --- |
+| Signals        |     0.003 |     3107 |       --- |             --- |
 | Block RAM      |    <0.001 |      0.5 |       135 |            0.37 |
 | MMCM           |     0.097 |        1 |         6 |           16.67 |
-| I/O            |     0.004 |       18 |       210 |            8.57 |
+| I/O            |     0.005 |       18 |       210 |            8.57 |
 | Static Power   |     0.097 |          |           |                 |
 | Total          |     0.218 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
@@ -73,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.035 |       0.020 |      0.015 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.036 |       0.020 |      0.015 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.071 |       0.053 |      0.018 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.005 |       0.001 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -153,7 +153,7 @@ Table of Contents
 +-------------------------+-----------+
 | top                     |     0.120 |
 |   Acc011                |     0.009 |
-|     ID220_0             |     0.004 |
+|     ID220_0             |     0.005 |
 |     counter_ADP_6       |     0.001 |
 |   CLOCK_MASTER          |     0.098 |
 |     inst                |     0.098 |
